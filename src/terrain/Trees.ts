@@ -1,5 +1,9 @@
 export default class Tree {
-  isPassable: false;
+  isPassable: boolean;
   growthDuration: number;
   maxGrowthLevel: number;
+
+  constructor() {
+    this.isPassable = false;
+  }
 }

@@ -1,3 +1,6 @@
 export default class Grass {
-  isPassable: true
+  isPassable: boolean
+  constructor() {
+    this.isPassable = true;
+  }
 }
